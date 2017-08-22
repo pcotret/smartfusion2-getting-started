@@ -1,0 +1,11 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "C:\Users\Giovanna.Franco\Desktop\SmartFusion3.3V\LedBlinkingDSpeed\designer\impl1\LedBlinkingDSpeed.adb"
+LIST SOURCE_FILES
+VALUE "C:\Users\Giovanna.Franco\Desktop\SmartFusion3.3V\LedBlinkingDSpeed\constraint\io\LedBlinkingDSpeed.io.pdc;pdc"
+VALUE "C:\Users\Giovanna.Franco\Desktop\SmartFusion3.3V\LedBlinkingDSpeed\constraint\fp\LedBlinkingDSpeed.fp.pdc;pdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "C:\Users\Giovanna.Franco\Desktop\SmartFusion3.3V\LedBlinkingDSpeed\synthesis\LedBlinkingDSpeed_sdc.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

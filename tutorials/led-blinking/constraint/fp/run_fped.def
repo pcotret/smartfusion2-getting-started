@@ -1,0 +1,26 @@
+data DESIGN LedBlinkingDSpeed
+data HPATH 'C:/Users/Giovanna.Franco/Desktop/LedBlinkingDSpeed/designer/LedBlinkingDSpeed'
+data CPATH 'C:/Users/Giovanna.Franco/Desktop/LedBlinkingDSpeed/constraint/fp'
+data CDIR 'C:/Users/Giovanna.Franco/Desktop/LedBlinkingDSpeed/constraint'
+data ETYPE CP
+data FAM SmartFusion2
+data DIE PA4M2500_N
+data PACKAGE vf256
+data HYDRA_EXPORT_DATA 1
+data HYDRA_PRESERVE_DATA_FILES 1
+data REGION_DEFCOLOR_EMPTY 2143322112
+data REGION_DEFCOLOR_INCLUSIVE 2147442270
+data REGION_DEFCOLOR_EXCLUSIVE 2143338688
+data REGION_DEFCOLOR_CLOCK 16735838
+data VCCI_1.2_VOLTR COM
+data VCCI_1.5_VOLTR COM
+data VCCI_1.8_VOLTR COM
+data VCCI_2.5_VOLTR COM
+data VCCI_3.3_VOLTR COM
+data FLOW_TYPE OLD
+data AFL 'C:/Users/Giovanna.Franco/Desktop/LedBlinkingDSpeed/designer/LedBlinkingDSpeed/LedBlinkingDSpeed.afl'
+data ADL 'C:/Users/Giovanna.Franco/Desktop/LedBlinkingDSpeed/designer/LedBlinkingDSpeed/LedBlinkingDSpeed.adl'
+data LOC 'C:/Users/Giovanna.Franco/Desktop/LedBlinkingDSpeed/designer/LedBlinkingDSpeed/LedBlinkingDSpeed.loc'
+data SEG 'C:/Users/Giovanna.Franco/Desktop/LedBlinkingDSpeed/designer/LedBlinkingDSpeed/LedBlinkingDSpeed.seg'
+data GDEV_SKIP_UNASSIGN_CMP_CHECK    1 
+

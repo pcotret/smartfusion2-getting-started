@@ -1,0 +1,1 @@
+@W: MT530 :"d:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\reset_out.vhd":72:5:72:6|Found inferred clock LedBlinkingDSpeed|clk which controls 135 sequential elements including Clear_outputs.reset. This clock has no specified timing constraint which may adversely impact design performance. 

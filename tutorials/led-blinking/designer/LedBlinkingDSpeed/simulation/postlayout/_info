@@ -1,0 +1,160 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Giovanna.Franco/Desktop/3.3V/SmartFusion3.3V/LedBlinkingDSpeed/simulation
+Eledblinkingdspeed
+Z0 w1473441648
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/Giovanna.Franco/Desktop/EmailedLedBlinkingDemo6Sept2016/SmartFusion2/LedBlinkingDSpeed/simulation
+Z4 8C:/Users/Giovanna.Franco/Desktop/EmailedLedBlinkingDemo6Sept2016/SmartFusion2/LedBlinkingDSpeed/designer/LedBlinkingDSpeed/LedBlinkingDSpeed_ba.vhd
+Z5 FC:/Users/Giovanna.Franco/Desktop/EmailedLedBlinkingDemo6Sept2016/SmartFusion2/LedBlinkingDSpeed/designer/LedBlinkingDSpeed/LedBlinkingDSpeed_ba.vhd
+l0
+L123
+V]me@6LAzckmC5HkChUQR71
+!s100 94nEM42m[REodV_gmh_N51
+Z6 OW;C;10.4c;61
+33
+Z7 !s110 1473442485
+!i10b 1
+Z8 !s108 1473442485.000000
+Z9 !s90 -reportprogress|300|-2008|-explicit|-work|postlayout|C:/Users/Giovanna.Franco/Desktop/EmailedLedBlinkingDemo6Sept2016/SmartFusion2/LedBlinkingDSpeed/designer/LedBlinkingDSpeed/LedBlinkingDSpeed_ba.vhd|
+Z10 !s107 C:/Users/Giovanna.Franco/Desktop/EmailedLedBlinkingDemo6Sept2016/SmartFusion2/LedBlinkingDSpeed/designer/LedBlinkingDSpeed/LedBlinkingDSpeed_ba.vhd|
+!i113 1
+Z11 o-2008 -explicit -work postlayout -O0
+Adef_arch
+Z12 DEx4 work 12 sdf_iopad_in 0 22 j_6PA82O1Qjf]Ti`:_iKR1
+Z13 DEx4 work 13 sdf_iopad_tri 0 22 zUFY2lN>_Z[D3Cd7m8:Fl1
+R1
+R2
+DEx4 work 17 ledblinkingdspeed 0 22 ]me@6LAzckmC5HkChUQR71
+l502
+L136
+V5=6cAa9KS1i77o;Zeo9R>0
+!s100 HAIB5<d;Kh_cbnEFXF1k52
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Eledblinkingdspeed_tb
+Z14 w1473198824
+R1
+R2
+R3
+Z15 8C:/Users/Giovanna.Franco/Desktop/EmailedLedBlinkingDemo6Sept2016/SmartFusion2/LedBlinkingDSpeed/stimulus/LedBlinkingDSpeed_tb.vhd
+Z16 FC:/Users/Giovanna.Franco/Desktop/EmailedLedBlinkingDemo6Sept2016/SmartFusion2/LedBlinkingDSpeed/stimulus/LedBlinkingDSpeed_tb.vhd
+l0
+L55
+VEboNKcV<=;J>U0K<a^1962
+!s100 lD8eLnoJ_;I0JS`GI9;hI1
+R6
+33
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-2008|-explicit|-work|postlayout|C:/Users/Giovanna.Franco/Desktop/EmailedLedBlinkingDemo6Sept2016/SmartFusion2/LedBlinkingDSpeed/stimulus/LedBlinkingDSpeed_tb.vhd|
+Z18 !s107 C:/Users/Giovanna.Franco/Desktop/EmailedLedBlinkingDemo6Sept2016/SmartFusion2/LedBlinkingDSpeed/stimulus/LedBlinkingDSpeed_tb.vhd|
+!i113 1
+R11
+Abehavioral
+R1
+R2
+Z19 DEx4 work 20 ledblinkingdspeed_tb 0 22 EboNKcV<=;J>U0K<a^1962
+l91
+L58
+Z20 VDh14Xe2;VJDh3PRFI]Q0E2
+Z21 !s100 [LYDlC<WAS]kUNZd:2YV_0
+R6
+33
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+Esdf_iopad_in
+R0
+R1
+R2
+R3
+R4
+R5
+l0
+L58
+Vj_6PA82O1Qjf]Ti`:_iKR1
+!s100 >;JZnn9I4nH[:I27eQb[<0
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Adef_arch
+R1
+R2
+R12
+l97
+L66
+VS74_9OmM4IFKN?W5L9hCY0
+!s100 mBQ<aJ]YSE[>MMA>N3Xm11
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Esdf_iopad_tri
+R0
+R1
+R2
+R3
+R4
+R5
+l0
+L9
+VzUFY2lN>_Z[D3Cd7m8:Fl1
+!s100 Xo]O_zZ8g6l_SlfDNe8W^0
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Adef_arch
+R1
+R2
+R13
+l39
+L18
+VeRO9;GCcVMgfKUhf9@hA00
+!s100 zXb[26LLcb[g<QMOa9b^;1
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11

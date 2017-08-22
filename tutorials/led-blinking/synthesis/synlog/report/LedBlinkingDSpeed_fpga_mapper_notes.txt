@@ -1,0 +1,13 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO231 :"d:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\clkgennoswitch.vhd":80:4:80:5|Found counter in view:work.ClkGenNoSwitch_1(architecture_clkgennoswitch) instance cnt[31:0] 
+@N: MO231 :"d:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\clkgen.vhd":80:4:80:5|Found counter in view:work.ClkGen_1(architecture_clkgen) instance cnt[31:0] 
+@N: MO231 :"d:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\clkgennoswitch.vhd":80:4:80:5|Found counter in view:work.ClkGenNoSwitch_0(architecture_clkgennoswitch) instance cnt[31:0] 
+@N: MO231 :"d:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\clkgen.vhd":80:4:80:5|Found counter in view:work.ClkGen_0(architecture_clkgen) instance cnt[31:0] 
+@N: FP130 |Promoting Net reset on CLKINT  I_90 
+@N: FP130 |Promoting Net clk_c on CLKINT  I_91 
+@N: FX1056 |Writing EDF file: D:\sandbox\microsemi-tutorial\tutorials\led-blinking\synthesis\LedBlinkingDSpeed.edn
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

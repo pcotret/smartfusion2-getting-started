@@ -1,0 +1,11 @@
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\c_hdl.exe  -osyn  D:\sandbox\microsemi-tutorial\tutorials\led-blinking\synthesis\synwork\LedBlinkingDSpeed_comp.srs  -top  work.LedBlinkingDSpeed  -hdllog  D:\sandbox\microsemi-tutorial\tutorials\led-blinking\synthesis\synlog\LedBlinkingDSpeed_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -infer_seqShift -primux -dspmac -pqdpadd -fixsmult -sdff_counter -divnmod -nram  -encrypt  -pro  -dmgen  D:\sandbox\microsemi-tutorial\tutorials\led-blinking\synthesis\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -vhdl2008  -ignore_undefined_lib  -lib work D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\ClkGen.vhd -lib work D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\ClkGenNoSwitch.vhd -lib work D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\Display.vhd -lib work D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\Reset_out.vhd -lib work D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\LedBlinkingDSpeed.vhd 
+rc:0 success:1 runtime:4
+file:D:\sandbox\microsemi-tutorial\tutorials\led-blinking\synthesis\synwork\LedBlinkingDSpeed_comp.srs|io:o|time:1503394805|size:7115|exec:0
+file:D:\sandbox\microsemi-tutorial\tutorials\led-blinking\synthesis\synlog\LedBlinkingDSpeed_compiler.srr|io:o|time:1503394805|size:6059|exec:0
+file:D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\ClkGen.vhd|io:i|time:1473177206|size:4619|exec:0
+file:D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\ClkGenNoSwitch.vhd|io:i|time:1473420954|size:4619|exec:0
+file:D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\Display.vhd|io:i|time:1473421804|size:4518|exec:0
+file:D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\Reset_out.vhd|io:i|time:1473421522|size:3704|exec:0
+file:D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\LedBlinkingDSpeed.vhd|io:i|time:1473420928|size:8108|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\c_hdl.exe|io:i|time:1479369964|size:1337856|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\c_hdl.exe|io:i|time:1479370168|size:1973248|exec:1

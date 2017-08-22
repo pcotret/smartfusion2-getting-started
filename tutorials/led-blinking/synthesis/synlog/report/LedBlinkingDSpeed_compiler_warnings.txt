@@ -1,0 +1,13 @@
+@W: CD638 :"D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\LedBlinkingDSpeed.vhd":83:11:83:23|Signal scale_factor0 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\LedBlinkingDSpeed.vhd":84:11:84:23|Signal scale_factor1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\LedBlinkingDSpeed.vhd":85:11:85:23|Signal scale_factor3 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CL111 :"D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\Display.vhd":79:8:79:9|All reachable assignments to red_led1 are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\Display.vhd":79:8:79:9|All reachable assignments to green_led2 are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CG296 :"D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\ClkGen.vhd":76:4:76:10|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\ClkGen.vhd":79:21:79:25|Referenced variable scale is not in sensitivity list.
+@W: CG290 :"D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\ClkGen.vhd":83:33:83:34|Referenced variable sw is not in sensitivity list.
+@W: CL113 :"D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\ClkGen.vhd":80:4:80:5|Feedback mux created for signal cnt[31:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\ClkGen.vhd":80:4:80:5|Feedback mux created for signal tmp_clk. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CG296 :"D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\ClkGenNoSwitch.vhd":76:4:76:10|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\ClkGenNoSwitch.vhd":79:21:79:25|Referenced variable scale is not in sensitivity list.
+

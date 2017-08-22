@@ -1,0 +1,11 @@
+@P:  Worst Slack : 5.071
+@P:  LedBlinkingDSpeed|clk - Estimated Frequency : 202.9 MHz
+@P:  LedBlinkingDSpeed|clk - Requested Frequency : 100.0 MHz
+@P:  LedBlinkingDSpeed|clk - Estimated Period : 4.929
+@P:  LedBlinkingDSpeed|clk - Requested Period : 10.000
+@P:  LedBlinkingDSpeed|clk - Slack : 5.071
+@P: LedBlinkingDSpeed Part : m2s025vf256std
+@P: LedBlinkingDSpeed Register bits  : 135 
+@P: LedBlinkingDSpeed DSP Blocks  : 0
+@P: LedBlinkingDSpeed I/O primitives : 7
+@P:  CPU Time : 0h:00m:01s

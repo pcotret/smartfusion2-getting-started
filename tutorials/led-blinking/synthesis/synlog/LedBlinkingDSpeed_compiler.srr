@@ -1,0 +1,64 @@
+Synopsys HDL Compiler, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 127R, built Nov 24 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\LedBlinkingDSpeed.vhd":59:7:59:23|Top entity is set to LedBlinkingDSpeed.
+VHDL syntax check successful!
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\LedBlinkingDSpeed.vhd":59:7:59:23|Synthesizing work.ledblinkingdspeed.architecture_ledblinkingdspeed.
+@W: CD638 :"D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\LedBlinkingDSpeed.vhd":83:11:83:23|Signal scale_factor0 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\LedBlinkingDSpeed.vhd":84:11:84:23|Signal scale_factor1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\LedBlinkingDSpeed.vhd":85:11:85:23|Signal scale_factor3 is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\Display.vhd":54:7:54:13|Synthesizing work.display.architecture_display.
+Post processing for work.display.architecture_display
+@W: CL111 :"D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\Display.vhd":79:8:79:9|All reachable assignments to red_led1 are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\Display.vhd":79:8:79:9|All reachable assignments to green_led2 are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@N: CD630 :"D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\ClkGen.vhd":56:7:56:12|Synthesizing work.clkgen.architecture_clkgen.
+@W: CG296 :"D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\ClkGen.vhd":76:4:76:10|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\ClkGen.vhd":79:21:79:25|Referenced variable scale is not in sensitivity list.
+@W: CG290 :"D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\ClkGen.vhd":83:33:83:34|Referenced variable sw is not in sensitivity list.
+Post processing for work.clkgen.architecture_clkgen
+@W: CL113 :"D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\ClkGen.vhd":80:4:80:5|Feedback mux created for signal cnt[31:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\ClkGen.vhd":80:4:80:5|Feedback mux created for signal tmp_clk. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@N: CD630 :"D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\ClkGenNoSwitch.vhd":56:7:56:20|Synthesizing work.clkgennoswitch.architecture_clkgennoswitch.
+@W: CG296 :"D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\ClkGenNoSwitch.vhd":76:4:76:10|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\ClkGenNoSwitch.vhd":79:21:79:25|Referenced variable scale is not in sensitivity list.
+Post processing for work.clkgennoswitch.architecture_clkgennoswitch
+@N: CD630 :"D:\sandbox\microsemi-tutorial\tutorials\led-blinking\hdl\Reset_out.vhd":55:7:55:15|Synthesizing work.reset_out.architecture_reset_out.
+Post processing for work.reset_out.architecture_reset_out
+Post processing for work.ledblinkingdspeed.architecture_ledblinkingdspeed
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 74MB peak: 75MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Aug 22 11:40:04 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Aug 22 11:40:05 2017
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Aug 22 11:40:05 2017
+
+###########################################################]

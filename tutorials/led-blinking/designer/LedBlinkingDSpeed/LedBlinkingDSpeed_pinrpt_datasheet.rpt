@@ -1,0 +1,20 @@
+*****************************************************************
+Pin Report - Date: Tue Aug 22 11:46:02 2017 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: Libero SoC v11.8 SP1
+Version: 11.8.1.12
+Design Name: LedBlinkingDSpeed
+Family: SmartFusion2
+Die: M2S025
+Package: 256 VF
+*****************************************************************
+
+Port       |Pin |Fixed |Function                                   |Bank     |I/O Std   |Direction                      |I/O state in Flash*Freeze mode |Resistor Pull                      |I/O available in Flash*Freeze mode |Schmitt Trigger |Odt_Static    |Odt Imp (Ohm)  |Low Power Exit |Input Delay |Slew         |Pre-Emphasis      |Output Drive (mA) |Output Load (pF) |
+-----------|----|------|-------------------------------------------|---------|----------|-------------------------------|-------------------------------|-----------------------------------|-----------------------------------|----------------|--------------|---------------|---------------|------------|-------------|------------------|------------------|-----------------|
+clk         H16  Yes    MSIO11NB2/I2C_1_SCL/GPIO_1_A/CCC_NE1_CLKI0  Bank2     LVCMOS33   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+green_led1  J16  Yes    MSIO11PB2/I2C_1_SDA/GPIO_0_A/CCC_NE0_CLKI0  Bank2     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 
+green_led2  M16  Yes    MSIO1NB2/USB_DIR_B                          Bank2     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 
+red_led1    K16  Yes    MSIO4PB2/USB_DATA2_B                        Bank2     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 
+red_led2    N16  Yes    MSIO1PB2/USB_XCLK_B                         Bank2     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 
+SW1         H12  Yes    MSI27NB1/MMUART_1_TXD/GPIO_24_B             Bank1     LVCMOS33   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+SW2         H13  Yes    MSIO28NB1/MMUART_1_RXD/GPIO_26_B            Bank1     LVCMOS33   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               

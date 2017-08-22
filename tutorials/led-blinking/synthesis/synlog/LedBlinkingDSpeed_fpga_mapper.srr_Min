@@ -1,0 +1,133 @@
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Sep 09 13:41:46 2016
+#
+
+
+Top view:               LedBlinkingDSpeed
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.545
+
+                          Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock            Frequency     Frequency     Period        Period        Slack     Type         Group              
+----------------------------------------------------------------------------------------------------------------------------
+LedBlinkingDSpeed|clk     100.0 MHz     202.9 MHz     10.000        4.929         5.071     inferred     Inferred_clkgroup_0
+============================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                        |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------
+Starting               Ending                 |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------
+LedBlinkingDSpeed|clk  LedBlinkingDSpeed|clk  |  0.000       0.545  |  No paths    -      |  No paths    -      |  No paths    -    
+====================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: LedBlinkingDSpeed|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                 Starting                                               Arrival          
+Instance                         Reference                 Type     Pin     Net         Time        Slack
+                                 Clock                                                                   
+---------------------------------------------------------------------------------------------------------
+Fast_clk_SW2.tmp_clk             LedBlinkingDSpeed|clk     SLE      Q       led2        0.061       0.545
+Initial_blinking_SW1.tmp_clk     LedBlinkingDSpeed|clk     SLE      Q       led0        0.061       0.545
+Fast_clk_SW2.cnt[0]              LedBlinkingDSpeed|clk     SLE      Q       cnt[0]      0.076       0.550
+Initial_blinking_SW1.cnt[0]      LedBlinkingDSpeed|clk     SLE      Q       cnt[0]      0.076       0.550
+Fast_clk_SW1.cnt[0]              LedBlinkingDSpeed|clk     SLE      Q       cnt[0]      0.076       0.550
+Initial_blinking_SW2.cnt[0]      LedBlinkingDSpeed|clk     SLE      Q       cnt[0]      0.076       0.584
+Fast_clk_SW1.cnt[24]             LedBlinkingDSpeed|clk     SLE      Q       cnt[24]     0.076       0.591
+Initial_blinking_SW1.cnt[25]     LedBlinkingDSpeed|clk     SLE      Q       cnt[25]     0.076       0.591
+Initial_blinking_SW2.cnt[25]     LedBlinkingDSpeed|clk     SLE      Q       cnt[25]     0.076       0.591
+Fast_clk_SW2.cnt[25]             LedBlinkingDSpeed|clk     SLE      Q       cnt[25]     0.076       0.591
+=========================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                 Starting                                                          Required          
+Instance                         Reference                 Type     Pin     Net                    Time         Slack
+                                 Clock                                                                               
+---------------------------------------------------------------------------------------------------------------------
+Display_out.green_led1           LedBlinkingDSpeed|clk     SLE      D       green_led1_4           0.179        0.545
+Display_out.red_led2             LedBlinkingDSpeed|clk     SLE      D       red_led2_3             0.179        0.545
+Fast_clk_SW2.cnt[0]              LedBlinkingDSpeed|clk     SLE      D       cnt_lm[0]              0.179        0.550
+Fast_clk_SW1.cnt[0]              LedBlinkingDSpeed|clk     SLE      D       cnt_lm[0]              0.179        0.550
+Initial_blinking_SW1.cnt[0]      LedBlinkingDSpeed|clk     SLE      D       cnt_lm[0]              0.179        0.550
+Initial_blinking_SW2.cnt[0]      LedBlinkingDSpeed|clk     SLE      D       cnt_lm[0]              0.179        0.584
+Fast_clk_SW2.tmp_clk             LedBlinkingDSpeed|clk     SLE      D       un7_cntlto31_0_0_0     0.179        0.591
+Fast_clk_SW1.tmp_clk             LedBlinkingDSpeed|clk     SLE      D       un7_cntlto31_0_0       0.179        0.591
+Initial_blinking_SW1.tmp_clk     LedBlinkingDSpeed|clk     SLE      D       un7_cntlto31_0         0.179        0.591
+Initial_blinking_SW2.tmp_clk     LedBlinkingDSpeed|clk     SLE      D       tmp_clk_RNO            0.179        0.591
+=====================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.724
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.179
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     0.545
+
+    Number of logic level(s):                1
+    Starting point:                          Fast_clk_SW2.tmp_clk / Q
+    Ending point:                            Display_out.red_led2 / D
+    The start point is clocked by            LedBlinkingDSpeed|clk [rising] on pin CLK
+    The end   point is clocked by            LedBlinkingDSpeed|clk [rising] on pin CLK
+
+Instance / Net                      Pin      Pin               Arrival     No. of    
+Name                       Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------
+Fast_clk_SW2.tmp_clk       SLE      Q        Out     0.061     0.061       -         
+led2                       Net      -        -       0.409     -           1         
+Display_out.red_led2_3     CFG4     C        In      -         0.471       -         
+Display_out.red_led2_3     CFG4     Y        Out     0.142     0.613       -         
+red_led2_3                 Net      -        -       0.111     -           1         
+Display_out.red_led2       SLE      D        In      -         0.724       -         
+=====================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>LedBlinkingDSpeed</design>
+	<target_edif>D:\sandbox\microsemi-tutorial\tutorials\led-blinking\synthesis\LedBlinkingDSpeed.edn</target_edif>
+</SynplifyOutput>

@@ -1,0 +1,175 @@
+Compile Report
+Microsemi Corporation - Microsemi Libero Software Release Libero SoC v11.8 SP1 (Version 11.8.1.12)
+Date: Tue Aug 22 11:40:18 2017
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S025         |
+| Package                        | 256 VF         |
+| Speed Grade                    | STD            |
+| Temp                           | 0:25:85        |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 3.3V           |
+| Default I/O technology         | LVCMOS 3.3V    |
+| Restrict Probe Pins            | No             |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+---------------------------------------------------------------------------------------------+
+| Topcell | LedBlinkingDSpeed                                                                           |
+| Format  | EDIF                                                                                        |
+| Source  | D:\sandbox\microsemi-tutorial\tutorials\led-blinking\synthesis\LedBlinkingDSpeed.edn        |
+| Source  | D:\sandbox\microsemi-tutorial\tutorials\led-blinking\constraint\io\LedBlinkingDSpeed.io.pdc |
+| Source  | D:\sandbox\microsemi-tutorial\tutorials\led-blinking\constraint\fp\LedBlinkingDSpeed.fp.pdc |
++---------+---------------------------------------------------------------------------------------------+
+
+Options
++---------------------------------------------------------+-------+
+| Merge User SDC file(s) with Existing Timing Constraints | true  |
+| Abort Compile if errors are found in PDC file(s)        | true  |
+| Enable Single Event Transient mitigation                | false |
+| Enable Design Separation Methodology                    | false |
+| Limit the number of high fanout nets to display to      | 10    |
++---------------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 320  | 27696 | 1.16       |
+| DFF                       | 135  | 27696 | 0.49       |
+| I/O Register              | 0    | 414   | 0.00       |
+| User I/O                  | 7    | 138   | 5.07       |
+| -- Single-ended I/O       | 7    | 138   | 5.07       |
+| -- Differential I/O Pairs | 0    | 65    | 0.00       |
+| RAM64x18                  | 0    | 34    | 0.00       |
+| RAM1K18                   | 0    | 31    | 0.00       |
+| MACC                      | 0    | 34    | 0.00       |
+| Chip Globals              | 2    | 16    | 12.50      |
+| CCC                       | 0    | 6     | 0.00       |
+| RCOSC_25_50MHZ            | 0    | 1     | 0.00       |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 0    | 1     | 0.00       |
+| MSS                       | 0    | 1     | 0.00       |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+-----+
+| Type                     | 4LUT | DFF |
++--------------------------+------+-----+
+| Fabric Logic             | 320  | 135 |
+| RAM64x18 Interface Logic | 0    | 0   |
+| RAM1K18 Interface Logic  | 0    | 0   |
+| MACC Interface Logic     | 0    | 0   |
+| Total Used               | 320  | 135 |
++--------------------------+------+-----+
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 32     | 4    |
+| Total  | 4    |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 3            | 0           | 0               |
+| Output I/O                    | 4            | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++--------------+--------+------+-------+--------+---------------+
+| I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
++--------------+--------+------+-------+--------+---------------+
+| LVCMOS33     |  3.30v |  N/A |  3    |  4     |  0            |
++--------------+--------+------+-------+--------+---------------+
+
+I/O Placement
++----------+-------+------------+
+| Type     | Count | Percentage |
++----------+-------+------------+
+| Locked   |  7    | 100.00%    |
+| Placed   |  0    | 0.00%      |
+| UnPlaced |  0    | 0.00%      |
++----------+-------+------------+
+
+Nets assigned to chip global resources
++--------+---------+--------------------------------------------+
+| Fanout | Type    | Name                                       |
++--------+---------+--------------------------------------------+
+| 135    | INT_NET | Net   : clk_c                              |
+|        |         | Driver: clk_ibuf_RNIVTI2/U0_RGB1           |
+|        |         | Source: NETLIST                            |
+| 134    | INT_NET | Net   : reset                              |
+|        |         | Driver: Clear_outputs/reset_RNIREK/U0_RGB1 |
+|        |         | Source: NETLIST                            |
++--------+---------+--------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+-------------------------------------------------+
+| Fanout | Type    | Name                                            |
++--------+---------+-------------------------------------------------+
+| 36     | INT_NET | Net   : SW1_c                                   |
+|        |         | Driver: SW1_ibuf                                |
+| 36     | INT_NET | Net   : SW2_c                                   |
+|        |         | Driver: SW2_ibuf                                |
+| 34     | INT_NET | Net   : Initial_blinking_SW2/cnt[26]            |
+|        |         | Driver: Initial_blinking_SW2/cnt[26]            |
+| 34     | INT_NET | Net   : Initial_blinking_SW2/N_45_mux           |
+|        |         | Driver: Initial_blinking_SW2/cnt_RNIMHNF[27]    |
+| 33     | INT_NET | Net   : Fast_clk_SW2/un14_cntlto31_0_a2         |
+|        |         | Driver: Fast_clk_SW2/un14_cntlto31_0_a2         |
+| 33     | INT_NET | Net   : Initial_blinking_SW1/N_29               |
+|        |         | Driver: Initial_blinking_SW1/un14_cntlto31_0_a2 |
+| 33     | INT_NET | Net   : Fast_clk_SW1/un14_cntlto31_0_a2_1       |
+|        |         | Driver: Fast_clk_SW1/un14_cntlto31_0_a2         |
+| 32     | INT_NET | Net   : Initial_blinking_SW2/N_74_mux           |
+|        |         | Driver: Initial_blinking_SW2/cnt_RNIAKU03[25]   |
+| 32     | INT_NET | Net   : Fast_clk_SW2/N_314_tz                   |
+|        |         | Driver: Fast_clk_SW2/cnt_RNITNI23[16]           |
+| 32     | INT_NET | Net   : Fast_clk_SW2/un14_cntlto31_0_a3_0       |
+|        |         | Driver: Fast_clk_SW2/un14_cntlto31_0_a3_0       |
++--------+---------+-------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+-------------------------------------------------+
+| Fanout | Type    | Name                                            |
++--------+---------+-------------------------------------------------+
+| 36     | INT_NET | Net   : SW1_c                                   |
+|        |         | Driver: SW1_ibuf                                |
+| 36     | INT_NET | Net   : SW2_c                                   |
+|        |         | Driver: SW2_ibuf                                |
+| 34     | INT_NET | Net   : Initial_blinking_SW2/cnt[26]            |
+|        |         | Driver: Initial_blinking_SW2/cnt[26]            |
+| 34     | INT_NET | Net   : Initial_blinking_SW2/N_45_mux           |
+|        |         | Driver: Initial_blinking_SW2/cnt_RNIMHNF[27]    |
+| 33     | INT_NET | Net   : Fast_clk_SW2/un14_cntlto31_0_a2         |
+|        |         | Driver: Fast_clk_SW2/un14_cntlto31_0_a2         |
+| 33     | INT_NET | Net   : Initial_blinking_SW1/N_29               |
+|        |         | Driver: Initial_blinking_SW1/un14_cntlto31_0_a2 |
+| 33     | INT_NET | Net   : Fast_clk_SW1/un14_cntlto31_0_a2_1       |
+|        |         | Driver: Fast_clk_SW1/un14_cntlto31_0_a2         |
+| 32     | INT_NET | Net   : Initial_blinking_SW2/N_74_mux           |
+|        |         | Driver: Initial_blinking_SW2/cnt_RNIAKU03[25]   |
+| 32     | INT_NET | Net   : Fast_clk_SW2/N_314_tz                   |
+|        |         | Driver: Fast_clk_SW2/cnt_RNITNI23[16]           |
+| 32     | INT_NET | Net   : Fast_clk_SW2/un14_cntlto31_0_a3_0       |
+|        |         | Driver: Fast_clk_SW2/un14_cntlto31_0_a3_0       |
++--------+---------+-------------------------------------------------+
+

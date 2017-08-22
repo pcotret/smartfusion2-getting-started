@@ -1,0 +1,4 @@
+@E: CD242 :"C:\Users\Giovanna.Franco\Desktop\3.3V\SmartFusion3.3V\LedBlinkingDSpeed\hdl\LedBlinkingDSpeed.vhd":166:8:166:16|Expecting ;
+@E: CD430 :"C:\Users\Giovanna.Franco\Desktop\3.3V\SmartFusion3.3V\LedBlinkingDSpeed\hdl\LedBlinkingDSpeed.vhd":166:8:166:16|Expecting library unit
+@E|Parse errors encountered - exiting
+

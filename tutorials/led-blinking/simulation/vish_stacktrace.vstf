@@ -1,0 +1,9 @@
+# Current time Tue Sep 06 16:48:35 2016
+# ModelSim Microsemi Stack Trace
+# Program = vish
+# Id = "10.4c"
+# Version = "2015.07"
+# Date = "Aug 12 2015"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 006174f3. Traceback:
