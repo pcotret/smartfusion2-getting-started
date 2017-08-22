@@ -10,7 +10,7 @@ Another manufacturer (Microsemi) proposes SmartFusion2 which are devices includi
 ## Libero SoC tools
 Microsemi dev tools are known as [Libero SoC](https://www.microsemi.com/products/fpga-soc/design-resources/design-software/libero-soc).
 
-![screen](https://bytebucket.org/pcotret/microsemi-tutorial/raw/5c262031d2ead3cd4cab01b1a18545ecf1a9b703/img/img0.png?token=5feffb85effb9b118bd71355f619e7dad7248a84)
+![screen](https://raw.githubusercontent.com/pcotret/smartfusion2-getting-started/master/img/img0.png)
 
 You can see that the GUI is quite similar to Vivado: toolbar on the left, block diagram creation in the main tab, etc.
 
@@ -37,8 +37,8 @@ I've had the opportunity to get a [Microsemi Creative Board](https://www.microse
 In the rest of this repository, I'll be using the SmartFusion2 Creative Board for examples/tutorials.
 
 ## Licences
-![device](https://bytebucket.org/pcotret/microsemi-tutorial/raw/5c262031d2ead3cd4cab01b1a18545ecf1a9b703/img/img1.png?token=9190119023230ecf56315b74ffacb92b1cc6a296)
-![license](https://bytebucket.org/pcotret/microsemi-tutorial/raw/5c262031d2ead3cd4cab01b1a18545ecf1a9b703/img/img2.png?token=df50af97eb6b870e103e3b08b96a948108b2efeb)
+![device](https://raw.githubusercontent.com/pcotret/smartfusion2-getting-started/master/img/img1.png)
+![license](https://raw.githubusercontent.com/pcotret/smartfusion2-getting-started/master/img/img2.png)
 
 ## Go on the wiki to start playing with the board
 
