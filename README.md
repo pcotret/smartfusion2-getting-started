@@ -42,4 +42,4 @@ In the rest of this repository, I'll be using the SmartFusion2 Creative Board fo
 
 ## Go on the wiki to start playing with the board
 
-Have a look at here to get to the wiki homepage.
+Have a look at [here](https://github.com/pcotret/smartfusion2-getting-started/wiki) to get to the wiki homepage.
