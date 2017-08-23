@@ -22,6 +22,7 @@ I'm going straight to the point (avoiding errors in the installation process...)
 * [Mega Vault v11.8](https://www.microsemi.com/document-portal/doc_download/136712-mega-vault-v11-8)
 * [Libero SoC v11.8 SP1 for Windows](https://www.microsemi.com/document-portal/doc_download/137416-download-libero-soc-v11-8-sp1-for-windows)
 * [Mega Vault v11.8 SP1](https://www.microsemi.com/document-portal/doc_download/137418-mega-vault-for-libero-soc-v11-8-sp1)
+* [Microsemi SoftConsole](https://www.microsemi.com/products/fpga-soc/design-resources/design-software/softconsole#downloads)
 
 Now, everything should be OK. Just look at the license section to add your license file.
 
