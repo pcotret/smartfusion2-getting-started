@@ -1,0 +1,27 @@
+Resource Usage Report for test_button 
+
+Mapping to part: m2s025vf256std
+CFG2           1 use
+
+Sequential Cells: 
+SLE            0 uses
+
+DSP Blocks:    0 of 34 (0%)
+
+I/O ports: 3
+I/O primitives: 3
+INBUF          2 uses
+OUTBUF         1 use
+
+
+Total LUTs:    1
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  0 + 0 + 0 + 0 = 0;
+Total number of LUTs after P&R:  1 + 0 + 0 + 0 = 1;
+

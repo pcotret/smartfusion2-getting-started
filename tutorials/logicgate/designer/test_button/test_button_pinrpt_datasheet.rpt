@@ -1,0 +1,16 @@
+*****************************************************************
+Pin Report - Date: Wed Aug 23 10:42:46 2017 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: Libero SoC v11.8 SP1
+Version: 11.8.1.12
+Design Name: test_button
+Family: SmartFusion2
+Die: M2S025
+Package: 256 VF
+*****************************************************************
+
+Port |Pin |Fixed |Function                                   |Bank     |I/O Std   |Direction                      |I/O state in Flash*Freeze mode |Resistor Pull                      |I/O available in Flash*Freeze mode |Schmitt Trigger |Odt_Static    |Odt Imp (Ohm)  |Low Power Exit |Input Delay |Slew         |Pre-Emphasis      |Output Drive (mA) |Output Load (pF) |
+-----|----|------|-------------------------------------------|---------|----------|-------------------------------|-------------------------------|-----------------------------------|-----------------------------------|----------------|--------------|---------------|---------------|------------|-------------|------------------|------------------|-----------------|
+a     H12  Yes    MSI27NB1/MMUART_1_TXD/GPIO_24_B             Bank1     LVCMOS33   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+b     H13  Yes    MSIO28NB1/MMUART_1_RXD/GPIO_26_B            Bank1     LVCMOS33   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+c     J16  Yes    MSIO11PB2/I2C_1_SDA/GPIO_0_A/CCC_NE0_CLKI0  Bank2     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 

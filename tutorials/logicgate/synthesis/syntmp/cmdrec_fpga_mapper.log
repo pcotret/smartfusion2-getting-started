@@ -1,0 +1,16 @@
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_generic.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  D:\sandbox\logicgate\synthesis   -part M2S025  -package VF256  -grade STD    -maxfan 10000 -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000 -low_power_ram_decomp 0 -seqshift_to_uram 0 -opcond COMTC -report_path 4000 -RWCheckOnRam 0 -summaryfile D:\sandbox\logicgate\synthesis\synlog\report\test_button_fpga_mapper.xml  -top_level_module  work.test_button  -licensetype  synplifypro_actel  -flow mapping  -mp  4  -prjfile  D:\sandbox\logicgate\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  D:\sandbox\logicgate\synthesis\test_button.edn   -freq 100.000   -tcl  D:\sandbox\logicgate\designer\test_button\synthesis.fdc  D:\sandbox\logicgate\synthesis\synwork\test_button_prem.srd  -sap  D:\sandbox\logicgate\synthesis\test_button.sap  -otap  D:\sandbox\logicgate\synthesis\test_button.tap  -omap  D:\sandbox\logicgate\synthesis\test_button.map  -devicelib  C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.v  -sap  D:\sandbox\logicgate\synthesis\test_button.sap  -ologparam  D:\sandbox\logicgate\synthesis\syntmp\test_button.plg  -osyn  D:\sandbox\logicgate\synthesis\test_button.srm  -prjdir  D:\sandbox\logicgate\synthesis\  -prjname  test_button_syn  -log  D:\sandbox\logicgate\synthesis\synlog\test_button_fpga_mapper.srr 
+rc:0 success:1 runtime:1
+file:D:\sandbox\logicgate\synthesis\scratchproject.prs|io:o|time:1503477077|size:1899|exec:0
+file:D:\sandbox\logicgate\synthesis\test_button.edn|io:o|time:1503477079|size:3563|exec:0
+file:D:\sandbox\logicgate\designer\test_button\synthesis.fdc|io:i|time:1503477076|size:54|exec:0
+file:D:\sandbox\logicgate\synthesis\synwork\test_button_prem.srd|io:i|time:1503477079|size:1462|exec:0
+file:D:\sandbox\logicgate\synthesis\test_button.sap|io:o|time:1503477079|size:117|exec:0
+file:D:\sandbox\logicgate\synthesis\test_button.tap|io:o|time:0|size:0|exec:0
+file:D:\sandbox\logicgate\synthesis\test_button.map|io:o|time:1503477080|size:28|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.v|io:i|time:1487938028|size:16359|exec:0
+file:D:\sandbox\logicgate\synthesis\test_button.sap|io:o|time:1503477079|size:117|exec:0
+file:D:\sandbox\logicgate\synthesis\syntmp\test_button.plg|io:o|time:1503477080|size:196|exec:0
+file:D:\sandbox\logicgate\synthesis\test_button.srm|io:o|time:1503477079|size:3259|exec:0
+file:D:\sandbox\logicgate\synthesis\synlog\test_button_fpga_mapper.srr|io:o|time:1503477080|size:7779|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\m_generic.exe|io:i|time:1485300962|size:17958400|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_generic.exe|io:i|time:1485302514|size:32495616|exec:1

@@ -1,0 +1,26 @@
+#### START OF AREA REPORT #####[
+
+Part:			M2S025VF256STD (Microsemi)
+
+---------------------------------------------------------------------------
+########   Utilization report for  Top level view:   test_button   ########
+===========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block test_button:	1 (16.67 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       3                  100 %                
+=================================================
+Total IO PADS in the block test_button:	3 (50.00 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

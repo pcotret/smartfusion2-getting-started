@@ -1,0 +1,15 @@
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_generic.exe  -mp  4  -prjfile  D:\sandbox\logicgate\synthesis\scratchproject.prs  -implementation  synthesis  -prodtype  synplify_pro  -encrypt  -pro  -rundir  D:\sandbox\logicgate\synthesis   -part M2S025  -package VF256  -grade STD    -maxfan 10000 -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000 -low_power_ram_decomp 0 -seqshift_to_uram 0 -opcond COMTC -report_path 4000 -RWCheckOnRam 0 -summaryfile D:\sandbox\logicgate\synthesis\synlog\report\test_button_premap.xml  -top_level_module  work.test_button  -oedif  D:\sandbox\logicgate\synthesis\test_button.edn  -conchk_prepass  D:\sandbox\logicgate\synthesis\test_button_cck.rpt   -freq 100.000   -tcl  D:\sandbox\logicgate\designer\test_button\synthesis.fdc  D:\sandbox\logicgate\synthesis\synwork\test_button_mult.srs  -flow prepass  -gcc_prepass  -osrd  D:\sandbox\logicgate\synthesis\synwork\test_button_prem.srd  -qsap  D:\sandbox\logicgate\synthesis\test_button.sap  -devicelib  C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.v  -ologparam  D:\sandbox\logicgate\synthesis\syntmp\test_button.plg  -osyn  D:\sandbox\logicgate\synthesis\synwork\test_button_prem.srd  -prjdir  D:\sandbox\logicgate\synthesis\  -prjname  test_button_syn  -log  D:\sandbox\logicgate\synthesis\synlog\test_button_premap.srr 
+rc:0 success:1 runtime:1
+file:D:\sandbox\logicgate\synthesis\scratchproject.prs|io:o|time:1503477077|size:1899|exec:0
+file:D:\sandbox\logicgate\synthesis\test_button.edn|io:o|time:0|size:0|exec:0
+file:D:\sandbox\logicgate\synthesis\test_button_cck.rpt|io:o|time:1503477079|size:2026|exec:0
+file:D:\sandbox\logicgate\designer\test_button\synthesis.fdc|io:i|time:1503477076|size:54|exec:0
+file:D:\sandbox\logicgate\synthesis\synwork\test_button_mult.srs|io:i|time:1503477078|size:1206|exec:0
+file:D:\sandbox\logicgate\synthesis\synwork\test_button_prem.srd|io:o|time:1503477079|size:1462|exec:0
+file:D:\sandbox\logicgate\synthesis\test_button.sap|io:o|time:1503477079|size:117|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.v|io:i|time:1487938028|size:16359|exec:0
+file:D:\sandbox\logicgate\synthesis\syntmp\test_button.plg|io:o|time:1503477078|size:0|exec:0
+file:D:\sandbox\logicgate\synthesis\synwork\test_button_prem.srd|io:o|time:1503477079|size:1462|exec:0
+file:D:\sandbox\logicgate\synthesis\synlog\test_button_premap.srr|io:o|time:1503477079|size:2824|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\m_generic.exe|io:i|time:1485300962|size:17958400|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_generic.exe|io:i|time:1485302514|size:32495616|exec:1

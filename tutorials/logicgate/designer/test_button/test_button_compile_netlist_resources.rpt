@@ -1,0 +1,134 @@
+Resource Report
+Microsemi Corporation - Microsemi Libero Software Release Libero SoC v11.8 SP1 (Version 11.8.1.12)
+Date: Wed Aug 23 10:31:23 2017
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S025         |
+| Package                        | 256 VF         |
+| Speed Grade                    | STD            |
+| Temp                           | 0:25:85        |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 3.3V           |
+| Default I/O technology         | LVCMOS 3.3V    |
+| Restrict Probe Pins            | Yes            |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+------------------------------------------------+
+| Topcell | test_button                                    |
+| Format  | EDIF                                           |
+| Source  | D:\sandbox\logicgate\synthesis\test_button.edn |
++---------+------------------------------------------------+
+
+Options
++----------------------------------------------------+-------+
+| Enable Single Event Transient mitigation           | false |
+| Enable Design Separation Methodology               | false |
+| Limit the number of high fanout nets to display to | 10    |
++----------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 1    | 27696 | 0.00       |
+| DFF                       | 0    | 27696 | 0.00       |
+| I/O Register              | 0    | 414   | 0.00       |
+| User I/O                  | 3    | 138   | 2.17       |
+| -- Single-ended I/O       | 3    | 138   | 2.17       |
+| -- Differential I/O Pairs | 0    | 65    | 0.00       |
+| RAM64x18                  | 0    | 34    | 0.00       |
+| RAM1K18                   | 0    | 31    | 0.00       |
+| MACC                      | 0    | 34    | 0.00       |
+| Chip Globals              | 0    | 16    | 0.00       |
+| CCC                       | 0    | 6     | 0.00       |
+| RCOSC_25_50MHZ            | 0    | 1     | 0.00       |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 0    | 1     | 0.00       |
+| MSS                       | 0    | 1     | 0.00       |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+-----+
+| Type                     | 4LUT | DFF |
++--------------------------+------+-----+
+| Fabric Logic             | 1    | 0   |
+| RAM64x18 Interface Logic | 0    | 0   |
+| RAM1K18 Interface Logic  | 0    | 0   |
+| MACC Interface Logic     | 0    | 0   |
+| Total Used               | 1    | 0   |
++--------------------------+------+-----+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 2            | 0           | 0               |
+| Output I/O                    | 1            | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++--------------+--------+------+-------+--------+---------------+
+| I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
++--------------+--------+------+-------+--------+---------------+
+| LVCMOS33     |  3.30v |  N/A |  2    |  1     |  0            |
++--------------+--------+------+-------+--------+---------------+
+
+I/O Placement
++----------+-------+------------+
+| Type     | Count | Percentage |
++----------+-------+------------+
+| Locked   |  0    | 0.00%      |
+| Placed   |  0    | 0.00%      |
+| UnPlaced |  3    | 100.00%    |
++----------+-------+------------+
+
+Nets assigned to chip global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+------------------------------------------------+
+| Fanout | Type    | Name                                           |
++--------+---------+------------------------------------------------+
+| 1      | INT_NET | Net   : a_c                                    |
+|        |         | Driver: a_ibuf                                 |
+| 1      | INT_NET | Net   : b_c                                    |
+|        |         | Driver: b_ibuf                                 |
+| 1      | INT_NET | Net   : c_c                                    |
+|        |         | Driver: c                                      |
+| 1      | INT_NET | Net   : ff_to_start_net                        |
+|        |         | Driver: flash_freeze_inst/INST_FLASH_FREEZE_IP |
++--------+---------+------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+------------------------------------------------+
+| Fanout | Type    | Name                                           |
++--------+---------+------------------------------------------------+
+| 1      | INT_NET | Net   : a_c                                    |
+|        |         | Driver: a_ibuf                                 |
+| 1      | INT_NET | Net   : b_c                                    |
+|        |         | Driver: b_ibuf                                 |
+| 1      | INT_NET | Net   : c_c                                    |
+|        |         | Driver: c                                      |
+| 1      | INT_NET | Net   : ff_to_start_net                        |
+|        |         | Driver: flash_freeze_inst/INST_FLASH_FREEZE_IP |
++--------+---------+------------------------------------------------+
+

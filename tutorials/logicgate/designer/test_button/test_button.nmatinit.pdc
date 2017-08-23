@@ -1,0 +1,28 @@
+# Microsemi Physical design constraints file
+
+# Version: v11.8 SP1 11.8.1.12
+
+# Design Name: test_button 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S025 , Package: 256 VF , Speed grade: STD 
+
+# Date generated: Wed Aug 23 10:42:44 2017 
+
+
+#
+# I/O constraints
+#
+
+set_io a -DIRECTION INPUT -pinname H12 -fixed no
+set_io b -DIRECTION INPUT -pinname H13 -fixed no
+set_io c -DIRECTION OUTPUT -pinname J16 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location ip_interface_inst -fixed no 203 0
+set_location flash_freeze_inst/INST_FLASH_FREEZE_IP -fixed no 624 8
+set_location c -fixed no 625 33

@@ -1,0 +1,12 @@
+set_io a              \
+    -pinname H12      \
+    -fixed yes        \
+    -DIRECTION INPUT
+set_io b              \
+    -pinname H13      \
+    -fixed yes        \
+    -DIRECTION INPUT
+set_io c              \
+    -pinname J16      \
+    -fixed yes        \
+    -DIRECTION OUTPUT

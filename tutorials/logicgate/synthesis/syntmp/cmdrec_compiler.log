@@ -1,0 +1,7 @@
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\c_hdl.exe  -osyn  D:\sandbox\logicgate\synthesis\synwork\test_button_comp.srs  -top  work.test_button  -hdllog  D:\sandbox\logicgate\synthesis\synlog\test_button_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -infer_seqShift -primux -dspmac -pqdpadd -fixsmult -sdff_counter -divnmod -nram  -encrypt  -pro  -dmgen  D:\sandbox\logicgate\synthesis\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -vhdl2008  -ignore_undefined_lib  -lib work D:\sandbox\logicgate\hdl\test_button.vhdl 
+rc:0 success:1 runtime:1
+file:D:\sandbox\logicgate\synthesis\synwork\test_button_comp.srs|io:o|time:1503477077|size:1547|exec:0
+file:D:\sandbox\logicgate\synthesis\synlog\test_button_compiler.srr|io:o|time:1503477077|size:2596|exec:0
+file:D:\sandbox\logicgate\hdl\test_button.vhdl|io:i|time:1503477060|size:240|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\c_hdl.exe|io:i|time:1479369964|size:1337856|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\c_hdl.exe|io:i|time:1479370168|size:1973248|exec:1
